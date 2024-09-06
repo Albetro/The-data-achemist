@@ -1,6 +1,7 @@
 
 Amazon Product Scraper (MVP)
 
+
 This project aims to develop a web scraper tool (MVP) to extract product information from Amazon product pages. The initial focus is on gathering basic data points like:
 
     Product Name
