@@ -79,7 +79,7 @@ def main():
     search_url = "https://www.amazon.com/s?k=bose&rh=n%3A12097479011&ref=nb_sb_noss"
     data = parse_listing(search_url)
     df = pd.DataFrame(data)
-    df.to_csv("headphones.csv", orient='records')
+    df.to_csv("headphones.csv")
 
 
 if __name__ == '__main__':
